@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-red-700 landscape:bg-blue-700 h-screen">
+    <section class="bg-cover bg-center h-screen bg-[url('@/assets/imagen.png')]">
         <h1 class=""></h1>
         <p class=""></p>
         <div class="">

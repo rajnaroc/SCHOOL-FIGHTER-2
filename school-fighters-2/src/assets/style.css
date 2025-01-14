@@ -563,6 +563,62 @@ video {
   background-color: rgb(185 28 28 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\/\] {
+  background-color: /;
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\@\'\)\] {
+  background-image: url('@');
+}
+
+.bg-\[url\(\'\@\/\'\)\] {
+  background-image: url('@/');
+}
+
+.bg-\[url\(\'\.\.\/as\'\)\] {
+  background-image: url('../as');
+}
+
+.bg-\[url\(\'\.\.\/assets\'\)\] {
+  background-image: url('../assets');
+}
+
+.bg-\[url\(\'\.\.\/assets\/\'\)\] {
+  background-image: url('../assets/');
+}
+
+.bg-\[url\(\'\.\.\/assets\/imagen\.png\'\)\] {
+  background-image: url('../assets/imagen.png');
+}
+
+.bg-\[url\(\'\/assets\/imagen\.png\'\)\] {
+  background-image: url('/assets/imagen.png');
+}
+
+.bg-\[url\(\'\@\/assets\/imagen\.png\'\)\] {
+  background-image: url('@/assets/imagen.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
