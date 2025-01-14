@@ -554,8 +554,67 @@ video {
   display: none;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.w-1\/3 {
+  width: 33.333333%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-16 {
+  gap: 4rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-gray-50 {
+  --tw-border-opacity: 1;
+  border-color: rgb(249 250 251 / var(--tw-border-opacity, 1));
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
 }
 
 .bg-red-700 {
@@ -569,6 +628,61 @@ video {
 
 .bg-\[\/\] {
   background-color: /;
+}
+
+.bg-\[url\] {
+  background-color: url;
+}
+
+.bg-\[\@\/asssets\/\] {
+  background-color: @/asssets/;
+}
+
+.bg-\[\@\/asssets\/imagen\.png\] {
+  background-color: @/asssets/imagen.png;
+}
+
+.bg-\[\.\.\/asssets\/imagen\.png\] {
+  background-color: ../asssets/imagen.png;
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#301\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 0 17 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#3DBC1E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(61 188 30 / var(--tw-bg-opacity, 1));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#3dbc1e\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(61 188 30 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#bc1e1e\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(188 30 30 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#ff7171\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 113 113 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#ff6868\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 104 104 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\)\] {
@@ -611,12 +725,77 @@ video {
   background-image: url('@/assets/imagen.png');
 }
 
+.bg-\[url\(\.\.\/asssets\/imagen\.png\)\] {
+  background-image: url(../asssets/imagen.png);
+}
+
+.bg-\[url\(\.\.\/assets\/imagen\.png\)\] {
+  background-image: url(../assets/imagen.png);
+}
+
+.bg-\[url\(\.\.\/assets\/magen\.png\)\] {
+  background-image: url(../assets/magen.png);
+}
+
+.bg-\[url\(\.\.\/assets\/img\/magen\.png\)\] {
+  background-image: url(../assets/img/magen.png);
+}
+
+.bg-\[url\(\.\.\/assets\/img\/imagen\.png\)\] {
+  background-image: url(../assets/img/imagen.png);
+}
+
 .bg-cover {
   background-size: cover;
 }
 
 .bg-center {
   background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.p-2\.5 {
+  padding: 0.625rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .antialiased {
@@ -629,9 +808,26 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.focus\:ring-blue-500:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity, 1));
+}
+
 @media (orientation: landscape) {
   .landscape\:bg-blue-700 {
     --tw-bg-opacity: 1;
     background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
+  }
+
+  .landscape\:bg-\[url\(\'\.\.\/assets\/img\/fondo-personajes\.png\'\)\] {
+    background-image: url('../assets/img/fondo-personajes.png');
+  }
+
+  .landscape\:bg-\[url\(\'\.\.\/assets\/img\/\.png\'\)\] {
+    background-image: url('../assets/img/.png');
+  }
+
+  .landscape\:bg-\[url\(\'\.\.\/assets\/img\/imagen\.png\'\)\] {
+    background-image: url('../assets/img/imagen.png');
   }
 }
