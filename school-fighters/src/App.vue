@@ -1,9 +1,8 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <nav class="p-6 bg-gray-800 text-white">
+    <router-link to="/" class="mr-4">Home</router-link> |
+    <router-link to="/about" class="ml-4">About</router-link>
   </nav>
-  <router-view/>
 </template>
 
 <style lang="scss">
