@@ -1,14 +1,15 @@
 <template>
-<div>
-    <h1>Vista Combate</h1>
-</div>
+    <section>
+        
+    </section>
 </template>
 
 <script>
 export default {
-    name: 'VistaCombate',
+    name: "VistaCombate",
 }
 </script>
 
 <style>
+
 </style>

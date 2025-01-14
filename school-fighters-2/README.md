@@ -1,4 +1,4 @@
-# school-fighters
+# school-fighters-2
 
 ## Project setup
 ```
