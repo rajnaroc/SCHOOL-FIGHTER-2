@@ -6,11 +6,11 @@
         </p>
         <div class="flex justify-center w-full items-center gap-6">
             <select class="bg-white border border-gray-300 text-sm rounded-lg focus:ring-blue-500 block w-1/3 p-2.5" name="" id="">
-                <option value="" selected> {{ personaje1 }}</option>
+                <option value="" disabled selected> {{ personaje1 }}</option>
                 <option v-for="(personaje,index) in personajes" :key="index" :value="index">{{ personaje.nombre }}</option>
             </select>
             <select class="bg-white border border-gray-300 text-sm rounded-lg focus:ring-blue-500 block w-1/3 p-2.5" name="" id="">
-                <option value="" selected> {{ personaje2 }}</option>
+                <option value="" disabled selected> {{ personaje2 }}</option>
                 <option v-for="(personaje,index) in personajes" :key="index" :value="index">{{ personaje.nombre }}</option>
             </select>
         </div>
